@@ -24,7 +24,7 @@ export const FlavorsPage: React.FC<FlavorsPageProps> = ({
       relatedKeyword2: 'Dairy-Free Pints',
       description: 'Explore all 8 artisanal ice cream flavors including handcrafted gelato and dairy-free pints. Order small-batch micro-creams delivered cold in dry ice today!',
       canonicalUrl: 'https://ais-dev-5p4uxx5jibrtwmllg6ke7r-75411372434.asia-east1.run.app/artisan-ice-cream-flavors',
-      ogImage: '/src/assets/images/pistachio_gelato.webp',
+      ogImage: '/images/pistachio_gelato.webp',
       schema: {
         '@context': 'https://schema.org',
         '@type': 'ItemList',

@@ -15,7 +15,7 @@ export const LocationsPage: React.FC<LocationsPageProps> = ({ onNavigate }) => {
       relatedKeyword2: 'Tasting Rooms',
       description: 'Visit Velvet Churn creamery locations across Portland and Seattle scoop shop parlors and tasting rooms. Taste fresh-churned waffle cones and flight boards today!',
       canonicalUrl: 'https://ais-dev-5p4uxx5jibrtwmllg6ke7r-75411372434.asia-east1.run.app/creamery-locations',
-      ogImage: '/src/assets/images/waffle_cone.webp',
+      ogImage: '/images/waffle_cone.webp',
       schema: {
         '@context': 'https://schema.org',
         '@type': 'LocalBusiness',

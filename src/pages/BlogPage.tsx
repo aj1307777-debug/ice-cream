@@ -20,7 +20,7 @@ export const BlogPage: React.FC<BlogPageProps> = ({ onNavigate }) => {
       relatedKeyword2: 'Dessert Recipes',
       description: 'Explore our ice cream blog filled with churning tips and dessert recipes. Master the science of butterfat, gelato traditions, and organic dairy sourcing!',
       canonicalUrl: 'https://ais-dev-5p4uxx5jibrtwmllg6ke7r-75411372434.asia-east1.run.app/ice-cream-blog',
-      ogImage: '/src/assets/images/churning_guide.webp',
+      ogImage: '/images/churning_guide.webp',
       schema: {
         '@context': 'https://schema.org',
         '@type': 'Blog',

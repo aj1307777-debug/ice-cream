@@ -68,7 +68,7 @@ export const FaqPage: React.FC<FaqPageProps> = ({ onNavigate }) => {
       relatedKeyword2: 'Allergen Ingredients',
       description: 'Find answers to ice cream FAQ regarding nutrition facts and allergen ingredients. Learn about dry-ice shipping, butterfat levels, and dairy-free options!',
       canonicalUrl: 'https://ais-dev-5p4uxx5jibrtwmllg6ke7r-75411372434.asia-east1.run.app/frequently-asked-questions',
-      ogImage: '/src/assets/images/freezer_burn.webp',
+      ogImage: '/images/freezer_burn.webp',
       schema: {
         '@context': 'https://schema.org',
         '@type': 'FAQPage',

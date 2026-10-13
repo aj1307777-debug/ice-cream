@@ -123,7 +123,7 @@ export default function App() {
       relatedKeyword2: 'Dessert Recipes',
       description: 'Explore our ice cream blog filled with churning tips and dessert recipes. Master the science of butterfat, gelato traditions, and organic dairy sourcing!',
       canonicalUrl: 'https://ais-dev-5p4uxx5jibrtwmllg6ke7r-75411372434.asia-east1.run.app/ice-cream-blog',
-      ogImage: '/src/assets/images/churning_guide.webp',
+      ogImage: '/images/churning_guide.webp',
     };
     imagesOnPage = articles.map((a) => ({
       name: a.image.split('/').pop() || 'photo.webp',
@@ -145,7 +145,7 @@ export default function App() {
       relatedKeyword2: 'Dairy-Free Pints',
       description: 'Explore all 8 artisanal ice cream flavors including handcrafted gelato and dairy-free pints. Order small-batch micro-creams delivered cold in dry ice today!',
       canonicalUrl: 'https://ais-dev-5p4uxx5jibrtwmllg6ke7r-75411372434.asia-east1.run.app/artisan-ice-cream-flavors',
-      ogImage: '/src/assets/images/pistachio_gelato.webp',
+      ogImage: '/images/pistachio_gelato.webp',
     };
     imagesOnPage = flavors.map((f) => ({
       name: f.image.split('/').pop() || 'flavor.webp',
@@ -161,7 +161,7 @@ export default function App() {
       relatedKeyword2: 'Small Batch Churning',
       description: 'Read our creamery story and commitment to grass-fed dairy and small batch churning. Discover how pasture-raised cows create richer, unadulterated ice cream pints!',
       canonicalUrl: 'https://ais-dev-5p4uxx5jibrtwmllg6ke7r-75411372434.asia-east1.run.app/our-creamery-story',
-      ogImage: '/src/assets/images/dairy_pasture.webp',
+      ogImage: '/images/dairy_pasture.webp',
     };
     imagesOnPage = [
       { name: 'dairy_pasture.webp', sizeKb: 70 },
@@ -176,7 +176,7 @@ export default function App() {
       relatedKeyword2: 'Allergen Ingredients',
       description: 'Find answers to ice cream FAQ regarding nutrition facts and allergen ingredients. Learn about dry-ice shipping, butterfat levels, and dairy-free options!',
       canonicalUrl: 'https://ais-dev-5p4uxx5jibrtwmllg6ke7r-75411372434.asia-east1.run.app/frequently-asked-questions',
-      ogImage: '/src/assets/images/freezer_burn.webp',
+      ogImage: '/images/freezer_burn.webp',
     };
     imagesOnPage = [
       { name: 'freezer_burn.webp', sizeKb: 52 },
@@ -191,7 +191,7 @@ export default function App() {
       relatedKeyword2: 'Tasting Rooms',
       description: 'Visit Velvet Churn creamery locations across Portland and Seattle scoop shop parlors and tasting rooms. Taste fresh-churned waffle cones and flight boards today!',
       canonicalUrl: 'https://ais-dev-5p4uxx5jibrtwmllg6ke7r-75411372434.asia-east1.run.app/creamery-locations',
-      ogImage: '/src/assets/images/waffle_cone.webp',
+      ogImage: '/images/waffle_cone.webp',
     };
     imagesOnPage = [
       { name: 'waffle_cone.webp', sizeKb: 46 }
@@ -213,7 +213,7 @@ export default function App() {
       relatedKeyword2: 'Gourmet Pints',
       description: 'Taste award-winning artisan ice cream and organic gelato churned in small batches with grass-fed dairy. Order fresh gourmet pints online with dry-ice delivery!',
       canonicalUrl: 'https://ais-dev-5p4uxx5jibrtwmllg6ke7r-75411372434.asia-east1.run.app/',
-      ogImage: '/src/assets/images/hero_artisanal_churn.webp',
+      ogImage: '/images/hero_artisanal_churn.webp',
     };
     imagesOnPage = [
       { name: 'hero_artisanal_churn.webp', sizeKb: 77 },

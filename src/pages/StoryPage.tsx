@@ -15,7 +15,7 @@ export const StoryPage: React.FC<StoryPageProps> = ({ onNavigate }) => {
       relatedKeyword2: 'Small Batch Churning',
       description: 'Read our creamery story and commitment to grass-fed dairy and small batch churning. Discover how pasture-raised cows create richer, unadulterated ice cream pints!',
       canonicalUrl: 'https://ais-dev-5p4uxx5jibrtwmllg6ke7r-75411372434.asia-east1.run.app/our-creamery-story',
-      ogImage: '/src/assets/images/dairy_pasture.webp',
+      ogImage: '/images/dairy_pasture.webp',
       schema: {
         '@context': 'https://schema.org',
         '@type': 'AboutPage',
@@ -53,7 +53,7 @@ export const StoryPage: React.FC<StoryPageProps> = ({ onNavigate }) => {
       {/* Hero Visual Asset */}
       <div className="relative rounded-3xl overflow-hidden shadow-xl border border-stone-200">
         <img
-          src="/src/assets/images/dairy_pasture.webp"
+          src="/images/dairy_pasture.webp"
           alt="Jersey dairy cows grazing on lush green organic pasture at sunrise"
           className="w-full h-[400px] object-cover"
         />

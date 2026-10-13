@@ -61,7 +61,7 @@ export function updatePageSeo(config: SeoPageConfig) {
     description: config.description,
     priceRange: '$$',
     servesCuisine: ['Ice Cream', 'Gelato', 'Artisanal Desserts'],
-    image: config.ogImage || '/src/assets/images/hero_artisanal_churn.webp',
+    image: config.ogImage || '/images/hero_artisanal_churn.webp',
   };
 
   schemaScript.textContent = JSON.stringify(config.schema || defaultSchema, null, 2);

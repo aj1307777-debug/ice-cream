@@ -23,7 +23,7 @@ export const HomePage: React.FC<HomePageProps> = ({
       relatedKeyword2: 'Gourmet Pints',
       description: 'Taste award-winning artisan ice cream and organic gelato churned in small batches with grass-fed dairy. Order fresh gourmet pints online with dry-ice delivery!',
       canonicalUrl: 'https://ais-dev-5p4uxx5jibrtwmllg6ke7r-75411372434.asia-east1.run.app/',
-      ogImage: '/src/assets/images/hero_artisanal_churn.webp',
+      ogImage: '/images/hero_artisanal_churn.webp',
       schema: {
         '@context': 'https://schema.org',
         '@type': 'IceCreamShop',
@@ -104,7 +104,7 @@ export const HomePage: React.FC<HomePageProps> = ({
             <div className="lg:col-span-5 relative">
               <div className="relative rounded-3xl overflow-hidden shadow-2xl border border-stone-200 bg-stone-100">
                 <img
-                  src="/src/assets/images/hero_artisanal_churn.webp"
+                  src="/images/hero_artisanal_churn.webp"
                   alt="Artisanal ice cream shop counter with scoops of gourmet pistachio and strawberry ice cream in ceramic bowls"
                   className="w-full h-[460px] object-cover"
                   loading="eager"
