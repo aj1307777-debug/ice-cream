@@ -5,7 +5,7 @@ export const articles: Article[] = [
     id: 'article-1',
     slug: 'artisan-ice-cream-churning-guide',
     url: '/ice-cream-blog/artisan-ice-cream-churning-guide',
-    seoTitle: 'Ice Cream Churning Guide – Butterfat Science & Smooth Texture | Velvet Churn',
+    seoTitle: 'Ice Cream Churning Guide – Butterfat Science & Smooth Texture | Crème Glacée',
     mainKeyword: 'Ice Cream Churning Guide',
     relatedKeyword1: 'Butterfat Science',
     relatedKeyword2: 'Smooth Texture',
@@ -19,7 +19,7 @@ export const articles: Article[] = [
       avatar: 'MB',
     },
     image: '/images/churning_guide.webp',
-    imageAlt: 'Stainless steel batch freezer churning dense Madagascar vanilla cream at Velvet Churn workshop',
+    imageAlt: 'Stainless steel batch freezer churning dense Madagascar vanilla cream at Crème Glacée workshop',
     imageSizeKb: 48,
     excerpt: 'Explore the thermodynamic principles of slow batch freezing, overrun management, and butterfat suspension that create microscopic ice crystals.',
     qaSections: [
@@ -47,7 +47,7 @@ export const articles: Article[] = [
     id: 'article-2',
     slug: 'organic-dairy-sourcing-grass-fed-cream',
     url: '/ice-cream-blog/organic-dairy-sourcing-grass-fed-cream',
-    seoTitle: 'Organic Dairy Sourcing – Grass-Fed Cream & Pasture Raised Milk | Velvet Churn',
+    seoTitle: 'Organic Dairy Sourcing – Grass-Fed Cream & Pasture Raised Milk | Crème Glacée',
     mainKeyword: 'Organic Dairy Sourcing',
     relatedKeyword1: 'Grass-Fed Cream',
     relatedKeyword2: 'Pasture Raised Milk',
@@ -81,7 +81,7 @@ export const articles: Article[] = [
         keyTakeaway: 'Generational farms with open-pasture access create healthier herds and superior culinary milk.'
       }
     ],
-    contentIntro: 'You can never craft dessert that surpasses the quality of your raw cream. At Velvet Churn, we trace every gallon of milk back to specific pasture paddocks where heritage Jersey and Guernsey cows feed on perennial herbs and rye grass.',
+    contentIntro: 'You can never craft dessert that surpasses the quality of your raw cream. At Crème Glacée, we trace every gallon of milk back to specific pasture paddocks where heritage Jersey and Guernsey cows feed on perennial herbs and rye grass.',
     contentBody: 'Industrial dairy homogenizes milk at 2,500 PSI, pulverizing the protective lipoprotein membrane that encases native butterfat globules. By contrast, our gentle low-temperature vat pasteurization at 63°C (145°F) for 30 minutes protects fragile whey proteins and preserves delicate floral notes.',
     relatedArticleSlugs: ['artisan-ice-cream-churning-guide', 'bourbon-vanilla-bean-sourcing-story', 'summer-ice-cream-flavor-pairings']
   },
@@ -89,7 +89,7 @@ export const articles: Article[] = [
     id: 'article-3',
     slug: 'gelato-vs-ice-cream-differences-explained',
     url: '/ice-cream-blog/gelato-vs-ice-cream-differences-explained',
-    seoTitle: 'Gelato vs Ice Cream – Churn Speed Differences & Italian Custard | Velvet Churn',
+    seoTitle: 'Gelato vs Ice Cream – Churn Speed Differences & Italian Custard | Crème Glacée',
     mainKeyword: 'Gelato vs Ice Cream',
     relatedKeyword1: 'Churn Speed Differences',
     relatedKeyword2: 'Italian Custard',
@@ -131,7 +131,7 @@ export const articles: Article[] = [
     id: 'article-4',
     slug: 'summer-ice-cream-flavor-pairings',
     url: '/ice-cream-blog/summer-ice-cream-flavor-pairings',
-    seoTitle: 'Summer Flavor Pairings – Fruit Puree Infusions & Dessert Recipes | Velvet Churn',
+    seoTitle: 'Summer Flavor Pairings – Fruit Puree Infusions & Dessert Recipes | Crème Glacée',
     mainKeyword: 'Summer Flavor Pairings',
     relatedKeyword1: 'Fruit Puree Infusions',
     relatedKeyword2: 'Dessert Recipes',
@@ -173,7 +173,7 @@ export const articles: Article[] = [
     id: 'article-5',
     slug: 'how-to-store-ice-cream-prevent-freezer-burn',
     url: '/ice-cream-blog/how-to-store-ice-cream-prevent-freezer-burn',
-    seoTitle: 'Prevent Freezer Burn – Ice Crystal Growth & Pint Storage Tips | Velvet Churn',
+    seoTitle: 'Prevent Freezer Burn – Ice Crystal Growth & Pint Storage Tips | Crème Glacée',
     mainKeyword: 'Prevent Freezer Burn',
     relatedKeyword1: 'Ice Crystal Growth',
     relatedKeyword2: 'Pint Storage Tips',
@@ -215,7 +215,7 @@ export const articles: Article[] = [
     id: 'article-6',
     slug: 'dairy-free-vegan-frozen-dessert-trends',
     url: '/ice-cream-blog/dairy-free-vegan-frozen-dessert-trends',
-    seoTitle: 'Vegan Frozen Desserts – Plant Milk Bases & Dairy-Free Gelato | Velvet Churn',
+    seoTitle: 'Vegan Frozen Desserts – Plant Milk Bases & Dairy-Free Gelato | Crème Glacée',
     mainKeyword: 'Vegan Frozen Desserts',
     relatedKeyword1: 'Plant Milk Bases',
     relatedKeyword2: 'Dairy-Free Gelato',
@@ -257,7 +257,7 @@ export const articles: Article[] = [
     id: 'article-7',
     slug: 'sicilian-pistachio-ice-cream-history',
     url: '/ice-cream-blog/sicilian-pistachio-ice-cream-history',
-    seoTitle: 'Sicilian Pistachio Gelato – Bronte Nut Harvest & Heritage Recipes | Velvet Churn',
+    seoTitle: 'Sicilian Pistachio Gelato – Bronte Nut Harvest & Heritage Recipes | Crème Glacée',
     mainKeyword: 'Sicilian Pistachio Gelato',
     relatedKeyword1: 'Bronte Nut Harvest',
     relatedKeyword2: 'Heritage Recipes',
@@ -292,14 +292,14 @@ export const articles: Article[] = [
       }
     ],
     contentIntro: 'High on the western slopes of Sicily’s Mount Etna lies the ancient town of Bronte. Here, pistachios are not merely an agricultural crop; they are revered as "l’oro verde"—the green gold that sustains regional culinary heritage.',
-    contentBody: 'At Velvet Churn, our Sicilian Pistachio pint uses 100% certified Bronte PDO pistachios. We roast them gently at 130°C to activate pyrazines without scorching the delicate linoleic oils. The resulting churn boasts a deeply nuanced, toasted, mineral-sweet flavor that lingers on the tongue for minutes.',
+    contentBody: 'At Crème Glacée, our Sicilian Pistachio pint uses 100% certified Bronte PDO pistachios. We roast them gently at 130°C to activate pyrazines without scorching the delicate linoleic oils. The resulting churn boasts a deeply nuanced, toasted, mineral-sweet flavor that lingers on the tongue for minutes.',
     relatedArticleSlugs: ['gelato-vs-ice-cream-differences-explained', 'artisan-ice-cream-churning-guide', 'crispy-homemade-waffle-cones-recipe']
   },
   {
     id: 'article-8',
     slug: 'crispy-homemade-waffle-cones-recipe',
     url: '/ice-cream-blog/crispy-homemade-waffle-cones-recipe',
-    seoTitle: 'Homemade Waffle Cones – Golden Batter Technique & Crispy Shells | Velvet Churn',
+    seoTitle: 'Homemade Waffle Cones – Golden Batter Technique & Crispy Shells | Crème Glacée',
     mainKeyword: 'Homemade Waffle Cones',
     relatedKeyword1: 'Golden Batter Technique',
     relatedKeyword2: 'Crispy Shells',
@@ -341,7 +341,7 @@ export const articles: Article[] = [
     id: 'article-9',
     slug: 'ice-cream-sugar-freezing-point-science',
     url: '/ice-cream-blog/ice-cream-sugar-freezing-point-science',
-    seoTitle: 'Freezing Point Depression – Sugar Science & Soft Scoop Texture | Velvet Churn',
+    seoTitle: 'Freezing Point Depression – Sugar Science & Soft Scoop Texture | Crème Glacée',
     mainKeyword: 'Freezing Point Depression',
     relatedKeyword1: 'Sugar Science',
     relatedKeyword2: 'Soft Scoop Texture',
@@ -383,7 +383,7 @@ export const articles: Article[] = [
     id: 'article-10',
     slug: 'bourbon-vanilla-bean-sourcing-story',
     url: '/ice-cream-blog/bourbon-vanilla-bean-sourcing-story',
-    seoTitle: 'Bourbon Vanilla Beans – Madagascar Orchid Harvest & Pure Extract | Velvet Churn',
+    seoTitle: 'Bourbon Vanilla Beans – Madagascar Orchid Harvest & Pure Extract | Crème Glacée',
     mainKeyword: 'Bourbon Vanilla Beans',
     relatedKeyword1: 'Madagascar Orchid Harvest',
     relatedKeyword2: 'Pure Extract',
@@ -399,7 +399,7 @@ export const articles: Article[] = [
     image: '/images/bourbon_vanilla.webp',
     imageAlt: 'Dense Madagascar bourbon vanilla bean ice cream with visible black flecks and cured vanilla orchid pods',
     imageSizeKb: 57,
-    excerpt: 'The three-year botanical journey of pollinating vanilla planifolia orchids, hand sweating, sun curing, and whole-bean cold infusions at Velvet Churn.',
+    excerpt: 'The three-year botanical journey of pollinating vanilla planifolia orchids, hand sweating, sun curing, and whole-bean cold infusions at Crème Glacée.',
     qaSections: [
       {
         question: 'Why does synthetic vanillin fail to replicate the complexity of real cured vanilla beans?',
@@ -412,13 +412,13 @@ export const articles: Article[] = [
         keyTakeaway: 'Every vanilla pod requires meticulous hand-pollination during a single morning 4-hour bloom.'
       },
       {
-        question: 'How does Velvet Churn extract flavor from whole vanilla pods into our dairy base?',
+        question: 'How does Crème Glacée extract flavor from whole vanilla pods into our dairy base?',
         answer: 'We split each cured pod lengthwise, scrape the aromatic seeds (caviar) into the warm milk, and then poach the pod husks in the cream at 70°C for 45 minutes. Finally, the steeped husks are cured for 48 hours in the cold aging tank to capture deeper woody notes.',
         keyTakeaway: 'Steeping both the caviar and pod husk captures top floral notes and deep woody base notes.'
       }
     ],
     contentIntro: 'Vanilla is too often treated as a synonym for "plain" or "ordinary." In reality, true vanilla is one of the most exotic, labor-intensive, and aromatically complex botanical ingredients on earth—surpassed in price per kilogram only by saffron.',
-    contentBody: 'At Velvet Churn, we partner directly with farming cooperatives in Madagascar’s Sava region. Each pint of our signature Madagascar Vanilla Bean contains the caviar of two whole hand-cured pods, creating the unmistakable dark flecks and rich bouquet that define our craft.',
+    contentBody: 'At Crème Glacée, we partner directly with farming cooperatives in Madagascar’s Sava region. Each pint of our signature Madagascar Vanilla Bean contains the caviar of two whole hand-cured pods, creating the unmistakable dark flecks and rich bouquet that define our craft.',
     relatedArticleSlugs: ['organic-dairy-sourcing-grass-fed-cream', 'artisan-ice-cream-churning-guide', 'crispy-homemade-waffle-cones-recipe']
   }
 ];

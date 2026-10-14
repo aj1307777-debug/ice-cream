@@ -39,7 +39,7 @@ export const ArticlePage: React.FC<ArticlePageProps> = ({
             },
             publisher: {
               '@type': 'Organization',
-              name: 'Velvet Churn Creamery',
+              name: 'Crème Glacée Creamery',
             }
           },
           {
@@ -77,7 +77,7 @@ export const ArticlePage: React.FC<ArticlePageProps> = ({
           onClick={(e) => handleNav(e, '/')}
           className="hover:text-stone-900 transition-colors"
         >
-          Velvet Churn Home
+          Crème Glacée Home
         </a>
         <span aria-hidden="true">/</span>
         <a
@@ -173,11 +173,11 @@ export const ArticlePage: React.FC<ArticlePageProps> = ({
       <section className="space-y-8 pt-4">
         <div className="border-b border-stone-200 pb-3">
           <span className="text-xs font-mono uppercase tracking-wider text-amber-800">
-            Search Engine Featured Snippet Structure
+            Answer Engine Optimization (AEO) Section
           </span>
-          <h2 className="text-2xl font-serif font-bold text-stone-900 mt-1">
-            Core Inquiry: Question &amp; Answer Analysis
-          </h2>
+          <p className="text-xl font-serif font-semibold text-stone-800 mt-1">
+            Direct Question &amp; Answer Briefings
+          </p>
         </div>
 
         {article.qaSections.map((qa, index) => (
@@ -185,10 +185,10 @@ export const ArticlePage: React.FC<ArticlePageProps> = ({
             key={index}
             className="p-6 sm:p-7 bg-white rounded-2xl border border-stone-200/90 shadow-xs space-y-4"
           >
-            {/* The Question Subheading as H2/H3 */}
-            <h3 className="text-xl sm:text-2xl font-serif font-bold text-stone-900 leading-snug">
+            {/* Subheading (H2) in Question format for AEO / Featured Snippets */}
+            <h2 className="text-xl sm:text-2xl font-serif font-bold text-stone-900 leading-snug">
               {qa.question}
-            </h3>
+            </h2>
 
             {/* Direct Answer Paragraph */}
             <p className="text-sm sm:text-base text-stone-700 leading-relaxed">
@@ -216,7 +216,7 @@ export const ArticlePage: React.FC<ArticlePageProps> = ({
         </h2>
         <p>{article.contentBody}</p>
         <p>
-          At Velvet Churn, these chemical and agricultural principles guide every recipe we churn. From balancing the freezing point depression to safeguarding delicate pasture enzymes, our commitment to artisanal standards remains uncompromised.
+          At Crème Glacée, these chemical and agricultural principles guide every recipe we churn. From balancing the freezing point depression to safeguarding delicate pasture enzymes, our commitment to artisanal standards remains uncompromised.
         </p>
 
         {/* Contextual Internal Links with Rich Descriptive Anchor Texts */}
@@ -241,7 +241,7 @@ export const ArticlePage: React.FC<ArticlePageProps> = ({
                 onClick={(e) => handleNav(e, '/our-creamery-story')}
                 className="font-medium text-amber-800 hover:text-amber-950 inline-flex items-center gap-1.5 transition-colors"
               >
-                <span>Read the Velvet Churn pasture-raised dairy mission and heritage</span>
+                <span>Read the Crème Glacée pasture-raised dairy mission and heritage</span>
                 <ArrowRight className="w-3.5 h-3.5" />
               </a>
             </li>

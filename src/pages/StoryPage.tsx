@@ -9,7 +9,7 @@ interface StoryPageProps {
 export const StoryPage: React.FC<StoryPageProps> = ({ onNavigate }) => {
   useEffect(() => {
     updatePageSeo({
-      title: 'Our Creamery Story – Grass-Fed Dairy & Small Batch Churning | Velvet Churn',
+      title: 'Our Creamery Story – Grass-Fed Dairy & Small Batch Churning | Crème Glacée',
       mainKeyword: 'Our Creamery Story',
       relatedKeyword1: 'Grass-Fed Dairy',
       relatedKeyword2: 'Small Batch Churning',
@@ -19,11 +19,11 @@ export const StoryPage: React.FC<StoryPageProps> = ({ onNavigate }) => {
       schema: {
         '@context': 'https://schema.org',
         '@type': 'AboutPage',
-        name: 'Our Creamery Story – Velvet Churn',
+        name: 'Our Creamery Story – Crème Glacée',
         description: 'Read our creamery story and commitment to grass-fed dairy and small batch churning.',
         publisher: {
           '@type': 'Organization',
-          name: 'Velvet Churn Creamery',
+          name: 'Crème Glacée Creamery',
         }
       }
     });
@@ -46,7 +46,7 @@ export const StoryPage: React.FC<StoryPageProps> = ({ onNavigate }) => {
           Our Creamery Story: From Regenerative Pastures to the Ice Cream Churn
         </h1>
         <p className="text-lg text-stone-600 leading-relaxed">
-          Velvet Churn began in 2018 with a radical thesis: ice cream cannot be judged by sweet toppings alone. True greatness is dictated by the soil biology, the grass variety, and the integrity of the raw butterfat.
+          Crème Glacée began in 2018 with a radical thesis: ice cream cannot be judged by sweet toppings alone. True greatness is dictated by the soil biology, the grass variety, and the integrity of the raw butterfat.
         </p>
       </div>
 
@@ -80,16 +80,16 @@ export const StoryPage: React.FC<StoryPageProps> = ({ onNavigate }) => {
           <span className="text-xs font-mono uppercase tracking-wider text-amber-800">
             Creamery Heritage &amp; Science
           </span>
-          <h2 className="text-3xl font-serif font-bold text-stone-900">
+          <p className="text-3xl font-serif font-bold text-stone-900">
             Frequently Asked Questions About Our Artisanal Process
-          </h2>
+          </p>
         </div>
 
         <div className="space-y-6">
           <div className="bg-white p-6 rounded-2xl border border-stone-200 space-y-2">
-            <h3 className="text-xl font-serif font-bold text-stone-900">
+            <h2 className="text-xl font-serif font-bold text-stone-900">
               Why do we enforce low-temperature vat pasteurization instead of industrial UHT?
-            </h3>
+            </h2>
             <p className="text-sm text-stone-600 leading-relaxed">
               Ultra-high temperature pasteurization (UHT) blasts milk to 140°C for 3 seconds. While it extends shelf-life indefinitely, it denatures fragile whey proteins and imparts an indelible cooked, burnt sulfur note. Our vat pasteurization holds the cream gently at 63°C for 30 minutes, destroying bacteria while safeguarding clean floral and grassy undertones.
             </p>
@@ -106,9 +106,9 @@ export const StoryPage: React.FC<StoryPageProps> = ({ onNavigate }) => {
           </div>
 
           <div className="bg-white p-6 rounded-2xl border border-stone-200 space-y-2">
-            <h3 className="text-xl font-serif font-bold text-stone-900">
-              What role does slow batch freezing play in Velvet Churn texture?
-            </h3>
+            <h2 className="text-xl font-serif font-bold text-stone-900">
+              What role does slow batch freezing play in Crème Glacée texture?
+            </h2>
             <p className="text-sm text-stone-600 leading-relaxed">
               Our continuous horizontal batch freezers spin slowly at controlled dasher revolutions. This gentle scraping action limits air overrun to just 22%—ensuring every spoonful has the weight and density of authentic European gelato while honoring the high-butterfat decadence of American ice cream.
             </p>
@@ -125,9 +125,9 @@ export const StoryPage: React.FC<StoryPageProps> = ({ onNavigate }) => {
           </div>
 
           <div className="bg-white p-6 rounded-2xl border border-stone-200 space-y-2">
-            <h3 className="text-xl font-serif font-bold text-stone-900">
+            <h2 className="text-xl font-serif font-bold text-stone-900">
               How do we source botanicals like Bronte pistachios and Bourbon vanilla?
-            </h3>
+            </h2>
             <p className="text-sm text-stone-600 leading-relaxed">
               We never purchase pre-made flavor syrups or extracts. We import whole cured Vanilla planifolia pods directly from the Sava region in Madagascar, and 100% certified PDO pistachios harvested biennially from volcanic orchards near Mount Etna in Sicily.
             </p>

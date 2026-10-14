@@ -18,7 +18,7 @@ export const FlavorsPage: React.FC<FlavorsPageProps> = ({
 
   useEffect(() => {
     updatePageSeo({
-      title: 'Ice Cream Flavors – Handcrafted Gelato & Dairy-Free Pints | Velvet Churn',
+      title: 'Ice Cream Flavors – Handcrafted Gelato & Dairy-Free Pints | Crème Glacée',
       mainKeyword: 'Ice Cream Flavors',
       relatedKeyword1: 'Handcrafted Gelato',
       relatedKeyword2: 'Dairy-Free Pints',
@@ -36,7 +36,7 @@ export const FlavorsPage: React.FC<FlavorsPageProps> = ({
           offers: {
             '@type': 'Offer',
             price: f.price,
-            priceCurrency: 'USD',
+            priceCurrency: 'INR',
           }
         }))
       }
@@ -150,7 +150,7 @@ export const FlavorsPage: React.FC<FlavorsPageProps> = ({
               <div>
                 <span className="text-xs text-stone-400 block font-mono">Price per Pint</span>
                 <span className="text-xl font-serif font-bold text-stone-900 font-mono">
-                  ${flavor.price.toFixed(2)}
+                  ₹{flavor.price.toLocaleString('en-IN')}
                 </span>
               </div>
               <button
@@ -164,16 +164,16 @@ export const FlavorsPage: React.FC<FlavorsPageProps> = ({
         ))}
       </div>
 
-      {/* Q&A Section on Flavor Formulation */}
+      {/* Q&A Section on Flavor Formulation for AEO */}
       <section className="bg-stone-100/70 p-8 rounded-3xl border border-stone-200 space-y-6">
-        <h2 className="text-2xl font-serif font-bold text-stone-900">
+        <p className="text-2xl font-serif font-bold text-stone-900">
           How We Formulate Ice Cream Flavors: Q&amp;A
-        </h2>
+        </p>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 text-sm">
           <div className="space-y-2">
-            <h3 className="font-serif font-bold text-stone-900 text-base">
+            <h2 className="font-serif font-bold text-stone-900 text-base">
               Why do you never use synthetic stabilizer gums or polysorbates?
-            </h3>
+            </h2>
             <p className="text-stone-600 leading-relaxed">
               Industrial gums (guar, locust bean, carrageenan) make ice cream gummy and delay melt, leaving an artificial polymer film. We rely entirely on natural egg yolk lecithin, grass-fed dairy solids, and low-temperature vat pasteurization to bind water naturally.
             </p>
@@ -186,9 +186,9 @@ export const FlavorsPage: React.FC<FlavorsPageProps> = ({
             </a>
           </div>
           <div className="space-y-2">
-            <h3 className="font-serif font-bold text-stone-900 text-base">
+            <h2 className="font-serif font-bold text-stone-900 text-base">
               How are dairy-free pints formulated without cow butterfat?
-            </h3>
+            </h2>
             <p className="text-stone-600 leading-relaxed">
               Our plant-based pints employ raw organic cashew milk and cold-pressed coconut cream. The resulting botanical lipids crystallize similarly to milk butterfat, achieving a clean melt without heavy coconut aftertastes.
             </p>

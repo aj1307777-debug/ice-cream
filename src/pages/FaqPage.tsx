@@ -33,13 +33,13 @@ export const FaqPage: React.FC<FaqPageProps> = ({ onNavigate }) => {
     {
       category: 'Ingredients & Nutrition',
       question: 'What is the butterfat percentage and why is it higher than supermarket ice cream?',
-      answer: 'Standard supermarket brands hover at the legal federal minimum of 10% butterfat and inject 80-100% whipped air. Velvet Churn pints feature 14% to 16% pure pasture butterfat from grass-fed Jersey cows with only 22% overrun, yielding an extraordinarily rich mouthfeel.',
+      answer: 'Standard supermarket brands hover at the legal federal minimum of 10% butterfat and inject 80-100% whipped air. Crème Glacée pints feature 14% to 16% pure pasture butterfat from grass-fed Jersey cows with only 22% overrun, yielding an extraordinarily rich mouthfeel.',
       linkText: 'Explore the thermodynamic butterfat chemistry in our churning guide',
       linkUrl: '/ice-cream-blog/artisan-ice-cream-churning-guide',
     },
     {
       category: 'Ingredients & Nutrition',
-      question: 'Do any Velvet Churn ice cream flavors contain gluten, peanuts, or synthetic dyes?',
+      question: 'Do any Crème Glacée ice cream flavors contain gluten, peanuts, or synthetic dyes?',
       answer: 'Our core dairy bases are naturally gluten-free with zero artificial colorants or chemical dyes. We explicitly label all tree nuts (such as our Bronte pistachios and roasted almond vegan pints). Flours are restricted strictly to house-baked waffle cone inclusion flavors.',
       linkText: 'Check the complete ingredients on our artisanal flavors menu',
       linkUrl: '/artisan-ice-cream-flavors',
@@ -62,7 +62,7 @@ export const FaqPage: React.FC<FaqPageProps> = ({ onNavigate }) => {
 
   useEffect(() => {
     updatePageSeo({
-      title: 'Ice Cream FAQ – Nutrition Facts & Allergen Ingredients | Velvet Churn',
+      title: 'Ice Cream FAQ – Nutrition Facts & Allergen Ingredients | Crème Glacée',
       mainKeyword: 'Ice Cream FAQ',
       relatedKeyword1: 'Nutrition Facts',
       relatedKeyword2: 'Allergen Ingredients',

@@ -32,9 +32,10 @@ export const Navbar: React.FC<NavbarProps> = ({
           <a
             href="/"
             onClick={(e) => handleLinkClick(e, '/')}
-            className="text-2xl font-serif font-semibold tracking-tight text-stone-900 whitespace-nowrap shrink-0 hover:text-amber-800 transition-colors"
+            className="text-2xl sm:text-[1.65rem] font-serif font-bold tracking-tight text-stone-900 whitespace-nowrap shrink-0 hover:text-amber-800 transition-colors"
+            aria-label="Crème Glacée home"
           >
-            Velvet Churn
+            Crème Glacée
           </a>
 
           {/* Zone 2: 4-5 concise single-line text navigation links */}

@@ -56,7 +56,7 @@ export function updatePageSeo(config: SeoPageConfig) {
   const defaultSchema = {
     '@context': 'https://schema.org',
     '@type': 'IceCreamShop',
-    name: 'Velvet Churn Artisanal Ice Cream & Gelato',
+    name: 'Crème Glacée Artisanal Ice Cream & Gelato',
     url: config.canonicalUrl,
     description: config.description,
     priceRange: '$$',

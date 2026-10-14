@@ -81,7 +81,7 @@ export default function App() {
   // Determine current active page & SEO metadata
   let activeComponent: React.ReactNode = null;
   let currentSeoConfig: SeoPageConfig = {
-    title: 'Artisan Ice Cream – Organic Gelato & Gourmet Pints | Velvet Churn',
+    title: 'Artisan Ice Cream – Organic Gelato & Gourmet Pints | Crème Glacée',
     mainKeyword: 'Artisan Ice Cream',
     relatedKeyword1: 'Organic Gelato',
     relatedKeyword2: 'Gourmet Pints',
@@ -117,7 +117,7 @@ export default function App() {
   } else if (currentPath === '/ice-cream-blog') {
     activeComponent = <BlogPage onNavigate={navigate} />;
     currentSeoConfig = {
-      title: 'Ice Cream Blog – Churning Tips & Dessert Recipes | Velvet Churn',
+      title: 'Ice Cream Blog – Churning Tips & Dessert Recipes | Crème Glacée',
       mainKeyword: 'Ice Cream Blog',
       relatedKeyword1: 'Churning Tips',
       relatedKeyword2: 'Dessert Recipes',
@@ -139,7 +139,7 @@ export default function App() {
       />
     );
     currentSeoConfig = {
-      title: 'Ice Cream Flavors – Handcrafted Gelato & Dairy-Free Pints | Velvet Churn',
+      title: 'Ice Cream Flavors – Handcrafted Gelato & Dairy-Free Pints | Crème Glacée',
       mainKeyword: 'Ice Cream Flavors',
       relatedKeyword1: 'Handcrafted Gelato',
       relatedKeyword2: 'Dairy-Free Pints',
@@ -155,7 +155,7 @@ export default function App() {
   } else if (currentPath === '/our-creamery-story') {
     activeComponent = <StoryPage onNavigate={navigate} />;
     currentSeoConfig = {
-      title: 'Our Creamery Story – Grass-Fed Dairy & Small Batch Churning | Velvet Churn',
+      title: 'Our Creamery Story – Grass-Fed Dairy & Small Batch Churning | Crème Glacée',
       mainKeyword: 'Our Creamery Story',
       relatedKeyword1: 'Grass-Fed Dairy',
       relatedKeyword2: 'Small Batch Churning',
@@ -170,7 +170,7 @@ export default function App() {
   } else if (currentPath === '/frequently-asked-questions') {
     activeComponent = <FaqPage onNavigate={navigate} />;
     currentSeoConfig = {
-      title: 'Ice Cream FAQ – Nutrition Facts & Allergen Ingredients | Velvet Churn',
+      title: 'Ice Cream FAQ – Nutrition Facts & Allergen Ingredients | Crème Glacée',
       mainKeyword: 'Ice Cream FAQ',
       relatedKeyword1: 'Nutrition Facts',
       relatedKeyword2: 'Allergen Ingredients',
@@ -185,11 +185,11 @@ export default function App() {
   } else if (currentPath === '/creamery-locations') {
     activeComponent = <LocationsPage onNavigate={navigate} />;
     currentSeoConfig = {
-      title: 'Creamery Locations – Scoop Shop Parlors & Tasting Rooms | Velvet Churn',
+      title: 'Creamery Locations – Scoop Shop Parlors & Tasting Rooms | Crème Glacée',
       mainKeyword: 'Creamery Locations',
       relatedKeyword1: 'Scoop Shop Parlors',
       relatedKeyword2: 'Tasting Rooms',
-      description: 'Visit Velvet Churn creamery locations across Portland and Seattle scoop shop parlors and tasting rooms. Taste fresh-churned waffle cones and flight boards today!',
+      description: 'Visit Crème Glacée creamery locations across Portland and Seattle scoop shop parlors and tasting rooms. Taste fresh-churned waffle cones and flight boards today!',
       canonicalUrl: 'https://ais-dev-5p4uxx5jibrtwmllg6ke7r-75411372434.asia-east1.run.app/creamery-locations',
       ogImage: '/images/waffle_cone.webp',
     };
@@ -207,7 +207,7 @@ export default function App() {
       />
     );
     currentSeoConfig = {
-      title: 'Artisan Ice Cream – Organic Gelato & Gourmet Pints | Velvet Churn',
+      title: 'Artisan Ice Cream – Organic Gelato & Gourmet Pints | Crème Glacée',
       mainKeyword: 'Artisan Ice Cream',
       relatedKeyword1: 'Organic Gelato',
       relatedKeyword2: 'Gourmet Pints',

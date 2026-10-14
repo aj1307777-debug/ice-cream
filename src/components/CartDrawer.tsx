@@ -23,7 +23,7 @@ export const CartDrawer: React.FC<CartDrawerProps> = ({
   const [isSubmitting, setIsSubmitting] = useState(false);
 
   const subtotal = items.reduce((acc, item) => acc + item.flavor.price * item.quantity, 0);
-  const shipping = subtotal >= 50 || items.length === 0 ? 0 : 8.5;
+  const shipping = subtotal >= 1000 || items.length === 0 ? 0 : 120;
   const total = subtotal + shipping;
 
   const handleCheckout = (e: React.FormEvent) => {
@@ -81,7 +81,7 @@ export const CartDrawer: React.FC<CartDrawerProps> = ({
                   Your artisanal pints are being packed with food-grade dry ice in our Portland creamery. Expected arrival within 48 hours.
                 </p>
                 <div className="p-4 bg-stone-100 rounded-xl text-left text-xs space-y-1 font-mono text-stone-700">
-                  <p>Confirmation: #VC-9482-COLD</p>
+                  <p>Confirmation: #CG-9482-COLD</p>
                   <p>Thermal Barrier: Recycled Cotton Fiber</p>
                   <p>Delivery: Guaranteed Frozen Solid</p>
                 </div>
@@ -130,7 +130,7 @@ export const CartDrawer: React.FC<CartDrawerProps> = ({
                         {item.flavor.name}
                       </h4>
                       <p className="text-xs text-stone-500 font-mono">
-                        ${item.flavor.price.toFixed(2)} / pint
+                        ₹{item.flavor.price.toLocaleString('en-IN')} / pint
                       </p>
                       <div className="flex items-center justify-between mt-2">
                         <div className="flex items-center border border-stone-200 rounded-md bg-stone-50">
@@ -174,18 +174,18 @@ export const CartDrawer: React.FC<CartDrawerProps> = ({
                 <div className="flex justify-between">
                   <span>Pints Subtotal:</span>
                   <span className="font-mono text-stone-900 font-medium">
-                    ${subtotal.toFixed(2)}
+                    ₹{subtotal.toLocaleString('en-IN')}
                   </span>
                 </div>
                 <div className="flex justify-between">
                   <span>Dry Ice &amp; Insulated Shipper:</span>
                   <span className="font-mono text-stone-900 font-medium">
-                    {shipping === 0 ? 'FREE ($50+ orders)' : `$${shipping.toFixed(2)}`}
+                    {shipping === 0 ? 'FREE (₹1,000+ orders)' : `₹${shipping.toLocaleString('en-IN')}`}
                   </span>
                 </div>
                 <div className="flex justify-between pt-2 border-t border-stone-200 text-sm font-semibold text-stone-900">
                   <span>Order Total:</span>
-                  <span className="font-mono text-amber-900">${total.toFixed(2)}</span>
+                  <span className="font-mono text-amber-900">₹{total.toLocaleString('en-IN')}</span>
                 </div>
               </div>
 
@@ -194,7 +194,7 @@ export const CartDrawer: React.FC<CartDrawerProps> = ({
                 disabled={isSubmitting}
                 className="w-full py-3 bg-stone-900 text-stone-50 text-sm font-medium rounded-xl hover:bg-stone-800 active:scale-[0.99] transition-all shadow-md cursor-pointer disabled:opacity-50"
               >
-                {isSubmitting ? 'Securing Cold Pack...' : `Checkout – $${total.toFixed(2)}`}
+                {isSubmitting ? 'Securing Cold Pack...' : `Checkout – ₹${total.toLocaleString('en-IN')}`}
               </button>
               <p className="text-[11px] text-stone-500 text-center">
                 Guaranteed solid frozen arrival or replacement pints sent free.

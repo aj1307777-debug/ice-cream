@@ -19,7 +19,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
           {/* Brand Col */}
           <div className="space-y-4">
             <h3 className="text-2xl font-serif font-bold text-stone-100 tracking-tight">
-              Velvet Churn
+              Crème Glacée
             </h3>
             <p className="text-sm text-stone-400 leading-relaxed">
               Small-batch artisanal ice cream and Italian-style gelato churned from 100% pasture-raised, grass-fed Jersey cow cream. Never homogenized, zero synthetic gums.
@@ -120,7 +120,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
 
         {/* Bottom Bar */}
         <div className="pt-8 border-t border-stone-800 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-stone-500">
-          <p>© {new Date().getFullYear()} Velvet Churn Creamery LLC. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Crème Glacée LLC. All rights reserved.</p>
           <div className="flex items-center gap-6">
             <span>Verified 100% WebP Images under 100 KB</span>
             <span>·</span>

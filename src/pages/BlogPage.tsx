@@ -14,7 +14,7 @@ export const BlogPage: React.FC<BlogPageProps> = ({ onNavigate }) => {
 
   useEffect(() => {
     updatePageSeo({
-      title: 'Ice Cream Blog – Churning Tips & Dessert Recipes | Velvet Churn',
+      title: 'Ice Cream Blog – Churning Tips & Dessert Recipes | Crème Glacée',
       mainKeyword: 'Ice Cream Blog',
       relatedKeyword1: 'Churning Tips',
       relatedKeyword2: 'Dessert Recipes',
@@ -24,7 +24,7 @@ export const BlogPage: React.FC<BlogPageProps> = ({ onNavigate }) => {
       schema: {
         '@context': 'https://schema.org',
         '@type': 'Blog',
-        name: 'Velvet Churn Ice Cream Culinary & Science Blog',
+        name: 'Crème Glacée Ice Cream Culinary & Science Blog',
         description: 'Explore our ice cream blog filled with churning tips and dessert recipes.',
         url: 'https://ais-dev-5p4uxx5jibrtwmllg6ke7r-75411372434.asia-east1.run.app/ice-cream-blog',
         blogPost: articles.map((art) => ({

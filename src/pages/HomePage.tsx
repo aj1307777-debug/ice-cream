@@ -17,7 +17,7 @@ export const HomePage: React.FC<HomePageProps> = ({
 }) => {
   useEffect(() => {
     updatePageSeo({
-      title: 'Artisan Ice Cream – Organic Gelato & Gourmet Pints | Velvet Churn',
+      title: 'Artisan Ice Cream – Organic Gelato & Gourmet Pints | Crème Glacée',
       mainKeyword: 'Artisan Ice Cream',
       relatedKeyword1: 'Organic Gelato',
       relatedKeyword2: 'Gourmet Pints',
@@ -27,7 +27,7 @@ export const HomePage: React.FC<HomePageProps> = ({
       schema: {
         '@context': 'https://schema.org',
         '@type': 'IceCreamShop',
-        name: 'Velvet Churn Artisanal Ice Cream & Gelato',
+        name: 'Crème Glacée Artisanal Ice Cream & Gelato',
         description: 'Taste award-winning artisan ice cream and organic gelato churned in small batches with grass-fed dairy.',
         url: 'https://ais-dev-5p4uxx5jibrtwmllg6ke7r-75411372434.asia-east1.run.app/',
         priceRange: '$$',
@@ -187,7 +187,7 @@ export const HomePage: React.FC<HomePageProps> = ({
                   <div>
                     <span className="text-xs text-stone-500 block font-mono">Pint Price</span>
                     <span className="text-base font-serif font-bold text-stone-900 font-mono">
-                      ${flavor.price.toFixed(2)}
+                      ₹{flavor.price.toLocaleString('en-IN')}
                     </span>
                   </div>
                   <button
@@ -221,10 +221,10 @@ export const HomePage: React.FC<HomePageProps> = ({
           <div className="space-y-6">
             {/* Q&A Item 1 */}
             <div className="p-6 bg-white rounded-2xl border border-stone-200 space-y-3">
-              <h3 className="text-xl font-serif font-bold text-stone-900 flex items-start gap-3">
+              <h2 className="text-xl font-serif font-bold text-stone-900 flex items-start gap-3">
                 <span className="text-amber-700 font-mono text-sm uppercase pt-1">Q1:</span>
                 <span>Why does pasture-raised Jersey cow cream create superior ice cream mouthfeel?</span>
-              </h3>
+              </h2>
               <p className="text-sm text-stone-600 leading-relaxed pl-8">
                 Jersey cow milk naturally carries a richer fat-to-protein ratio and higher levels of beta-carotene, resulting in an authentic ivory-golden hue. Because their diet consists of rotational perennial pastures rather than fermented feedlot grain, the resulting butterfat melts at a lower threshold (35°C), releasing delicate volatile aromatics across the palate without leaving a waxy coating.
               </p>
@@ -242,10 +242,10 @@ export const HomePage: React.FC<HomePageProps> = ({
 
             {/* Q&A Item 2 */}
             <div className="p-6 bg-white rounded-2xl border border-stone-200 space-y-3">
-              <h3 className="text-xl font-serif font-bold text-stone-900 flex items-start gap-3">
+              <h2 className="text-xl font-serif font-bold text-stone-900 flex items-start gap-3">
                 <span className="text-amber-700 font-mono text-sm uppercase pt-1">Q2:</span>
                 <span>How does low overrun batch freezing prevent icy crystallization?</span>
-              </h3>
+              </h2>
               <p className="text-sm text-stone-600 leading-relaxed pl-8">
                 Industrial commercial ice cream incorporates up to 100% overrun—meaning half the pint is whipped air that melts instantly into water droplets. In our craft batch freezer, we maintain overrun between 20% and 25%. Combined with cryogenic scraped-surface heat exchangers, ice crystals stay below 20 microns, far smaller than the 35-micron threshold detectable by human sensory papillae.
               </p>
@@ -263,10 +263,10 @@ export const HomePage: React.FC<HomePageProps> = ({
 
             {/* Q&A Item 3 */}
             <div className="p-6 bg-white rounded-2xl border border-stone-200 space-y-3">
-              <h3 className="text-xl font-serif font-bold text-stone-900 flex items-start gap-3">
+              <h2 className="text-xl font-serif font-bold text-stone-900 flex items-start gap-3">
                 <span className="text-amber-700 font-mono text-sm uppercase pt-1">Q3:</span>
                 <span>How can ice cream pints be shipped nationwide while remaining frozen solid?</span>
-              </h3>
+              </h2>
               <p className="text-sm text-stone-600 leading-relaxed pl-8">
                 Every online shipment is nestled in compostable recycled-cotton insulated coolers packed with 5 lbs of solid dry ice pellets at -78.5°C (-109°F). This deep-freeze environment ensures that even during peak summer transit, pints arrive rock-solid and untouched by ambient temperature swings.
               </p>

@@ -9,17 +9,17 @@ interface LocationsPageProps {
 export const LocationsPage: React.FC<LocationsPageProps> = ({ onNavigate }) => {
   useEffect(() => {
     updatePageSeo({
-      title: 'Creamery Locations – Scoop Shop Parlors & Tasting Rooms | Velvet Churn',
+      title: 'Creamery Locations – Scoop Shop Parlors & Tasting Rooms | Crème Glacée',
       mainKeyword: 'Creamery Locations',
       relatedKeyword1: 'Scoop Shop Parlors',
       relatedKeyword2: 'Tasting Rooms',
-      description: 'Visit Velvet Churn creamery locations across Portland and Seattle scoop shop parlors and tasting rooms. Taste fresh-churned waffle cones and flight boards today!',
+      description: 'Visit Crème Glacée creamery locations across Portland and Seattle scoop shop parlors and tasting rooms. Taste fresh-churned waffle cones and flight boards today!',
       canonicalUrl: 'https://ais-dev-5p4uxx5jibrtwmllg6ke7r-75411372434.asia-east1.run.app/creamery-locations',
       ogImage: '/images/waffle_cone.webp',
       schema: {
         '@context': 'https://schema.org',
         '@type': 'LocalBusiness',
-        name: 'Velvet Churn Flagship Parlor',
+        name: 'Crème Glacée Flagship Parlor',
         address: {
           '@type': 'PostalAddress',
           streetAddress: '742 NW 23rd Avenue',
